@@ -11,6 +11,12 @@
       "password": "q0939811017q",
       "name": "Леонид",
       "id": 2
+    },
+    {
+      "email": "yana.polyanko@gmail.com",
+      "password": "123456",
+      "name": "Леон",
+      "id": 3
     }
   ],
   "bill": {

@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'buh-carrency-card',
   templateUrl: './carrency-card.component.html',
   styleUrls: ['./carrency-card.component.sass']
 })
-export class CarrencyCardComponent implements OnInit {
+export class CarrencyCardComponent {
 
-  constructor() { }
+  @Input() currency: any;
 
-  ngOnInit() {
-  }
+  date = new Date;
+
+  currencies: string[] = ['26', '32'];
 
 }

@@ -3,14 +3,17 @@
         Страница счета <span class="sparkline bar"></span>
     </h3>
     <div class="pull-right">
-      <button class="btn-sm btn btn-primary-outline">
+      <button class="btn-sm btn btn-primary-outline" (click)="onRefresh()">
         <i class="fa fa-refresh"></i>
       </button>
     </div>
 </div>
 <section class="section">
-    <div class="row">
-        <buh-bill-card></buh-bill-card>
-        <buh-carrency-card></buh-carrency-card>
+    <div class="row" *ngIf="!isLoaded">
+        Loading ...
+    </div>
+    <div class="row" *ngIf="isLoaded">
+        <buh-bill-card [bill]="bill" [currency]="currency"></buh-bill-card>
+        <buh-carrency-card [currency]="currency"></buh-carrency-card>
     </div>
   </section>
