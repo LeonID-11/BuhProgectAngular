@@ -4,8 +4,13 @@
     </h3>
 </div>
 
-<buh-history-chart></buh-history-chart>
+<div *ngIf="!isLoaded" class="text-center">Loading ....</div>
+<div *ngIf="isLoaded">
+    <buh-history-chart [data]="chartData"></buh-history-chart>
 
-<buh-history-events></buh-history-events>
+    <buh-history-events></buh-history-events>
 
-<buh-history-filter></buh-history-filter>
+    <buh-history-filter></buh-history-filter>
+
+</div>
+

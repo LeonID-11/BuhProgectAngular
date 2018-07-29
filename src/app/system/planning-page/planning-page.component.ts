@@ -7,7 +7,6 @@ import { CategoriasService } from '../shared/services/categorias.service';
 import { Bill } from '../shared/models/bill.modul';
 import { Category } from '../shared/models/category.model';
 import { BUHEvent } from '../shared/models/buh-event.model';
-import { totalmem } from 'os';
 
 
 @Component({
