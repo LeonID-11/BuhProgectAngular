@@ -5,29 +5,17 @@
       "email": "wfm@mail.ru",
       "password": "12345678",
       "name": "Администратор"
-    },
-    {
-      "email": "rleonidr@gmail.com",
-      "password": "q0939811017q",
-      "name": "Леонид",
-      "id": 2
-    },
-    {
-      "email": "yana.polyanko@gmail.com",
-      "password": "123456",
-      "name": "Леон",
-      "id": 3
     }
   ],
   "bill": {
-    "value": 10000,
+    "value": 1000,
     "currency": "UAH"
   },
   "categories": [
     {
       "name": "Дом",
-      "capacity": 1500,
-      "id": 1
+      "id": 1,
+      "capacity": 1500
     },
     {
       "name": "Еда",
@@ -63,7 +51,7 @@
       "category": 2,
       "date": "17.06.2018 14:00:48",
       "id": 3,
-      "description": "Поход в окей с баллами. Бесплатная еда"
+      "description": "Поход в сильпо с баллами. Бесплатная еда"
     },
     {
       "type": "outcome",
@@ -75,11 +63,11 @@
     },
     {
       "type": "outcome",
-      "amount": 4000,
+      "amount": 200,
       "category": 3,
-      "date": "10.06.2018 14:01:58",
-      "id": 5,
-      "description": "Заправка + проход ТО"
+      "date": "28.06.2018 15:00:00",
+      "id": 4,
+      "description": "ТО авто"
     }
   ]
 }

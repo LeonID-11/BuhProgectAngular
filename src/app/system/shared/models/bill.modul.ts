@@ -1,6 +1,6 @@
 export class Bill{
     constructor(
-        public valur: number,
+        public value: number,
         public currency: string,
         public id?: number
     ){}

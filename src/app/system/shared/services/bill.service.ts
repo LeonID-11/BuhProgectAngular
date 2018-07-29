@@ -15,6 +15,10 @@ constructor(public http:HttpClient) {
     return this.http.get<Bill>(this.getUrl('/bill'));
   }
 
+  updateBill(bill: Bill):Observable<Bill>{
+    return this.http.put<Bill>(this.getUrl('/bill'), bill);
+  }
+
   getCarrency(){
     return this.http.get<any>('https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json');
   }
