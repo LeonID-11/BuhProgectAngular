@@ -22,4 +22,8 @@ export class EventService extends BillService  {
   getEvents(): Observable<BUHEvent[]>{
     return this.http.get<BUHEvent[]>(this.getUrl('/events'));
   }
+
+  getEventById(id: string):Observable<BUHEvent>{
+    return this.http.get<BUHEvent>(this.getUrl(`/events/${id}`));
+  }
 }

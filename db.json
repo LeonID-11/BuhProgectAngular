@@ -8,7 +8,7 @@
     }
   ],
   "bill": {
-    "value": 1000,
+    "value": 10000,
     "currency": "UAH"
   },
   "categories": [
@@ -34,7 +34,7 @@
       "type": "income",
       "amount": 1250,
       "category": 2,
-      "date": "12.06.2018 19:49:02",
+      "date": "12.07.2018 19:49:02",
       "description": "Подарили еду в гостях"
     },
     {
@@ -42,14 +42,14 @@
       "type": "outcome",
       "amount": 1300,
       "category": 1,
-      "date": "13.06.2018 19:49:02",
+      "date": "03.08.2018 19:49:02",
       "description": "Купил посудомоечную машину"
     },
     {
       "type": "income",
       "amount": 1480,
       "category": 2,
-      "date": "17.06.2018 14:00:48",
+      "date": "17.07.2018 14:00:48",
       "id": 3,
       "description": "Поход в сильпо с баллами. Бесплатная еда"
     },
@@ -57,7 +57,7 @@
       "type": "outcome",
       "amount": 2470,
       "category": 2,
-      "date": "17.06.2018 14:00:58",
+      "date": "17.07.2018 14:00:58",
       "id": 4,
       "description": "Закупка на неделю"
     },
@@ -65,8 +65,8 @@
       "type": "outcome",
       "amount": 200,
       "category": 3,
-      "date": "28.06.2018 15:00:00",
-      "id": 4,
+      "date": "28.07.2018 15:00:00",
+      "id": 5,
       "description": "ТО авто"
     }
   ]
